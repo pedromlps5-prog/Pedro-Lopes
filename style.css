@@ -28,6 +28,7 @@ p, .explicação, .titulop {
   padding-top: 0.2rem;
 
 
+  
 }
 
 .explicação {
@@ -47,6 +48,10 @@ p, .explicação, .titulop {
   justify-content: center;
   align-items: center;
   background-color: #29000c;
+}
+
+video {
+  pointer-events: none; 
 }
 
 /* ================================================= */
