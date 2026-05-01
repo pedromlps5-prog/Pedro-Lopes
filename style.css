@@ -51,7 +51,15 @@ p, .explicação, .titulop {
 }
 
 video {
-  pointer-events: none; 
+  pointer-events: none;  
+  autoplay 
+  muted 
+  loop 
+  playsinline 
+  preload="metadata"
+>
+  <source src="teu-video.mp4" type="video/mp4" />
+</video>
 }
 
 /* ================================================= */
