@@ -322,32 +322,7 @@ footer {
 }
 
 
-.footer1 {
-  height: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #29000c;
-  padding: 0 1vw; 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color:#29000c;
-}
 
-.footerli1 {
-  display: flex;
-  text-decoration: none;
-  list-style: none;
-}
-
-.footerli1 li {
-  padding-left: 0.5rem;
-}
-
-.footerli1 img {
-  height: 1.2rem;
-}
 .Mailto {
   color: #8b6fa7;
 }
