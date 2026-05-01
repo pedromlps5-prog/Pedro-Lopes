@@ -353,7 +353,7 @@ footer {
 
 
 .imgcaixa2 { grid-template-columns: repeat(2, 1fr); }
-.imgcaixa3 { grid-template-columns: repeat(2, 1fr); }
+.imgcaixa3 { grid-template-columns: repeat(1, 1fr); }
 .imgcaixa4 { grid-template-columns: repeat(2, 1fr); }
 .imgcaixa5 { grid-template-columns: repeat(3, 1fr); gap: 2rem;  }
 
