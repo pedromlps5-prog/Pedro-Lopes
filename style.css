@@ -16,7 +16,7 @@ video:first-child {
 
 body {
   padding-top: 3rem;
-  height: 100dvh; 
+ overflow: hidden;
 }
 
 h1, a, h2, h3{
