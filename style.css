@@ -1,0 +1,429 @@
+/* ================================================= */
+/* RESET */
+/* ================================================= */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 3rem;
+}
+
+h1, a, h2, h3{
+  font-family: "Space Mono", monospace;
+}
+
+p, .explicação, .titulop {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.titulop {
+  font-weight: 400;
+  font-size: small;
+  padding-top: 0.2rem;
+
+
+}
+
+.explicação {
+  font-size: 0.6rem;
+  font-weight: 200;
+}
+
+.titulop  {
+  color: #000000;
+}
+
+.fundo {height: calc(100vh - 6rem)}
+
+.home {
+  height: calc(100vh - 6rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #29000c;
+}
+
+/* ================================================= */
+/* HEADER */
+/* ================================================= */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  padding: 0 1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#29000c;
+  z-index: 1000;
+}
+
+.logo {
+  height: 2.0rem;
+  border-radius: 4rem;
+}
+
+/* ================================================= */
+/* NAVBAR */
+/* ================================================= */
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  padding-left: 0.5rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #8b6fa7;
+}
+
+.navbar a:hover {
+  color: #af92cd;
+}
+
+.linkpro {
+  text-decoration: none;
+  color: #000000;
+}
+
+.linkpro a:hover {
+  color:blueviolet ;
+}
+/* ================================================= */
+/* HOME */
+/* ================================================= */
+
+.eu {
+  height: 17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #29000c;
+  margin: 2rem;
+
+}
+
+
+.cartaz {
+  width: 23rem;
+  border: 1px solid #000000;
+}
+
+
+
+/* ================================================= */
+/* CAIXAS (GRID BASE) */
+/* ================================================= */
+
+[class^="caixa"] {
+  width: 100%;
+  margin: 0;
+  padding: 0rem 5rem 2rem 5rem;
+}
+
+[class^="imgcaixa"] {
+  display: grid;
+  width: 100%;
+  padding: 0rem;
+  gap: 1rem;
+}
+
+[class^="imgcaixa"] img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.logos {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding-bottom: 0rem;
+}
+
+.logos img {
+  width: 8rem;
+  height: fit-content;
+  padding-left: 0.2rem; padding-right: 0.2rem;
+  margin: 0.2rem;
+}
+
+/* GRID VARIAÇÕES */
+
+.imgcaixa2 { grid-template-columns: repeat(2, 1fr); }
+.imgcaixa3 { grid-template-columns: repeat(3, 1fr); }
+.imgcaixa4 { grid-template-columns: repeat(4, 1fr); }
+.imgcaixa5 { grid-template-columns: repeat(5, 1fr); gap: 2rem;  }
+
+/* ================================================= */
+/* VIDEO */
+/* ================================================= */
+
+.caixav,
+.video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.videcaixa {
+  display: grid;
+  grid-template-columns: repeat(2, 29rem);
+  justify-content: center;
+  gap: 1rem;
+}
+
+.videcaixa video {
+  width: 29rem;
+  height: 19rem;
+  object-fit: cover;
+}
+
+.bird-video {
+  height: 28rem;
+  width: auto;
+}
+
+/* ================================================= */
+/* ABOUT */
+/* ================================================= */
+
+.about {
+  background-image: url(imagens/pedrol1.png);
+  background-size: 45rem;
+  background-position: right 2rem;
+  background-repeat: no-repeat;
+  margin: 2rem;
+}
+
+
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+
+.bio {
+  margin: 2rem 30rem 0 2rem;
+  list-style: none;
+}
+
+.instagram {
+  margin: 2rem 8rem 1rem 2rem;
+  list-style: none;
+}
+
+.instagram a:hover {
+  color: #af92cd;
+}
+
+
+/* ================================================= */
+/* TIPOGRAFIA */
+/* ================================================= */
+
+h1, h2 { font-weight: 600; }
+
+.PZINE {
+  font-weight: 400;
+  margin: 60px;
+}
+
+a {
+  color: #77559c;
+  text-decoration: none;
+}
+
+p {
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+h1 a { color: #000000;}
+
+
+/* ================================================= */
+/* TEXT SECTION */
+/* ================================================= */
+
+.contentor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 0.5rem auto;
+  max-width: 800px;
+  padding: 2.5rem;
+  background-color: #fff;
+}
+
+.colum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.contentor a {
+  cursor: pointer;
+}
+
+.contentor a:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 15px #c8c8c829;
+}
+
+
+/* ================================================= */
+/* FOOTER */
+/* ================================================= */
+
+footer {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #29000c;
+  padding: 0 1vw; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#29000c;
+}
+
+.footerli {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footerli li {
+  padding-left: 0.5rem;
+}
+
+.footerli img {
+  height: 1.2rem;
+}
+.Mailto {
+  color: #8b6fa7;
+}
+
+.Mailto:hover {
+  color: #af92cd;
+}
+
+/* ================================================= */
+/* RESPONSIVE */
+/* ================================================= */
+
+@media (max-width: 900px) {
+  .bio {
+    margin: 2rem;
+  }
+
+  .about {
+    background-size: 20rem;
+    background-position-y: 0;
+  }
+  .logos img  {
+  width: 7rem;
+  height: auto;
+}
+
+}
+
+@media (max-width: 600px) {
+
+
+
+.imgcaixa2 { grid-template-columns: repeat(2, 1fr); }
+.imgcaixa3 { grid-template-columns: repeat(2, 1fr); }
+.imgcaixa4 { grid-template-columns: repeat(2, 1fr); }
+.imgcaixa5 { grid-template-columns: repeat(3, 1fr); gap: 2rem;  }
+
+
+[class^="caixa"] {
+  width: 100%;
+  margin: 0;
+  padding: 0rem 1.5rem 0.5rem 1.5rem;
+}
+
+[class^="imgcaixa"] {
+  display: grid;
+  width: 100%;
+  padding: 0rem;
+  gap: 1rem;
+}
+
+[class^="imgcaixa"] img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+ .logos img  {
+  width: 5rem;
+  height: auto;
+}
+
+ .logos img  {
+  width: 5rem;
+  height: auto;
+}
+
+  .about {
+    background-size: 20rem;
+    background-position-y: 0;
+  }
+
+  .about {
+  background-image: url(imagens/pedrol1.png);
+  background-size: 13rem;
+  background-position: right 0.2rem;
+  background-repeat: no-repeat;
+  margin: 1.0rem;
+
+}
+
+  .contentor {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .eu {
+    height: 11rem;
+    margin: 1rem 0 0 2rem;
+  }
+
+  .bio {
+    margin: 2rem;
+  }
+
+  .titulop {
+  font-weight: 400;
+  font-size: 0.8rem;
+  padding-top: 0.2rem;
+}
+
+.explicação {
+  font-size: 0.6rem;
+  font-weight: 200;
+}
+
+}
