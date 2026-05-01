@@ -10,13 +10,8 @@
   box-sizing: border-box;
 }
 
-video:first-child {
-   autoplay muted loop playsinline; preload="metadata"
-  } 
-
 body {
   padding-top: 3rem;
- overflow: hidden;
 }
 
 h1, a, h2, h3{
