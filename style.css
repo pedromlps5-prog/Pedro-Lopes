@@ -165,7 +165,7 @@ padding-bottom: 0rem;
 
 /* GRID VARIAÇÕES */
 
-.imgcaixa2 { grid-template-columns: repeat(2, 1fr); }
+.imgcaixa2 { grid-template-columns: repeat(1, 1fr); }
 .imgcaixa3 { grid-template-columns: repeat(3, 1fr); }
 .imgcaixa4 { grid-template-columns: repeat(4, 1fr); }
 .imgcaixa5 { grid-template-columns: repeat(5, 1fr); gap: 2rem;  }
@@ -320,6 +320,34 @@ footer {
 .footerli img {
   height: 1.2rem;
 }
+
+
+.footer1 {
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #29000c;
+  padding: 0 1vw; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#29000c;
+}
+
+.footerli1 {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footerli1 li {
+  padding-left: 0.5rem;
+}
+
+.footerli1 img {
+  height: 1.2rem;
+}
 .Mailto {
   color: #8b6fa7;
 }
@@ -425,5 +453,22 @@ footer {
   font-size: 0.6rem;
   font-weight: 200;
 }
+footer {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #29000c;
+  padding: 0 1vw; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#29000c;
+}
 
+.footerli {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
 }
