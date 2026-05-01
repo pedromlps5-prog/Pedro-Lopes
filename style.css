@@ -390,13 +390,9 @@ footer {
   display: block;
 }
 
- .logos img  {
-  width: 5rem;
-  height: auto;
-}
 
  .logos img  {
-  width: 5rem;
+  width: 3rem;
   height: auto;
 }
 
